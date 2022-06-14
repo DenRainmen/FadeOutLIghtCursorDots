@@ -23,8 +23,8 @@ canvas.onmousemove = function (e) {
 		mouseY = e.pageY - this.offsetTop;
 
 		/* ctx.strokeStyle = "rgba(255,255,255,1)"; */
-		ctx.fillStyle = "blue";
-		ctx.shadowColor = "darkviolet";
+		ctx.fillStyle = "orange";
+		ctx.shadowColor = "gold";
 		ctx.shadowBlur = 20;
 		ctx.beginPath();
 		ctx.moveTo(lastX, lastY);
